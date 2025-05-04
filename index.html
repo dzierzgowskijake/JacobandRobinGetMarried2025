@@ -10,64 +10,65 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #e7f1dc;
             color: #333;
-            font-family: 'Baskervville', serif; /* Added serif for better readability */
-            font-size: 18px; /* Slightly reduced base font size for better mobile view */
-            line-height: 1.6; /* Improved line height for readability */
+            font-family: 'Baskervville', serif;
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center; /* Center text within the body */
         }
         header {
             background: #ffffff;
-            text-align: center;
-            padding: 30px 15px; /* Adjusted padding for smaller screens */
+            padding: 30px 15px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         header h1 {
-            font-size: 2em; /* Adjusted font size for smaller screens */
+            font-size: 2em;
             margin-bottom: 8px;
         }
         header h2 {
-            font-size: 1.1em; /* Adjusted font size for smaller screens */
+            font-size: 1.1em;
         }
         header img {
-            max-width: 100%; /* Make images responsive */
+            max-width: 90%; /* Slightly reduced max-width for better mobile fit */
             height: auto;
-            display: block; /* Remove extra space below inline images */
-            margin: 15px auto; /* Center the image */
+            display: block;
+            margin: 15px auto; /* Center the image horizontally */
         }
         section {
             background: white;
-            margin: 20px auto; /* Adjusted margin for smaller screens */
-            padding: 20px; /* Adjusted padding for smaller screens */
-            max-width: 95%; /* Allow section to take up more width on smaller screens */
-            border-radius: 12px; /* Slightly reduced border-radius for smaller screens */
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 95%;
+            border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            text-align: left; /* Reset text alignment for section content */
         }
         section h2 {
-            font-size: 1.5em; /* Adjusted font size for smaller screens */
+            font-size: 1.5em;
             margin-bottom: 12px;
+            text-align: center; /* Center section titles */
         }
         ul {
             padding-left: 20px;
+            text-align: left; /* Ensure list items are left-aligned */
         }
         ul li {
             margin-bottom: 8px;
         }
         footer {
-            text-align: center;
-            margin-top: 30px; /* Adjusted margin for smaller screens */
-            padding: 15px; /* Adjusted padding for smaller screens */
-            font-size: 0.8em; /* Adjusted font size for smaller screens */
+            padding: 15px;
+            font-size: 0.8em;
             color: #333;
         }
         footer h2 {
-            font-size: 1.2em; /* Adjusted font size for smaller screens */
+            font-size: 1.2em;
             margin-bottom: 5px;
         }
-        /* Center the standalone images */
-        body > center > img {
-            max-width: 90%; /* Make standalone images responsive */
+        /* Style for standalone images */
+        body > img {
+            max-width: 90%;
             height: auto;
             display: block;
-            margin: 20px auto;
+            margin: 20px auto; /* Center standalone images horizontally */
         }
     </style>
 </head>
@@ -103,11 +104,9 @@
         </p>
     </section>
 
-    <center>
-        <img src="engaged.jpeg"
-             width="400"
-             height="500" alt="Engagement Photo" />
-    </center>
+    <img src="engaged.jpeg"
+         width="400"
+         height="500" alt="Engagement Photo" />
 
     <section>
         <h2>Wedding Agenda</h2>
@@ -119,11 +118,9 @@
         </ul>
     </section>
 
-    <center>
-        <img src="JRimage1.jpeg"
-             width="500"
-             height="400" alt="Image 1" />
-    </center>
+    <img src="JRimage1.jpeg"
+         width="500"
+         height="400" alt="Image 1" />
 
     <section>
         <h2>Hotel Information</h2>
@@ -137,11 +134,9 @@
         </ul>
     </section>
 
-    <center>
-        <img src="JRimage2.jpeg"
-             width="400"
-             height="500" alt="Image 2" />
-    </center>
+    <img src="JRimage2.jpeg"
+         width="400"
+         height="500" alt="Image 2" />
 
     <footer>
         <h2>With love, Robin & Jacob ❤️</h2>
